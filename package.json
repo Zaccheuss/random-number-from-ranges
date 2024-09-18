@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "npx tsc && node out/index.js",
+    "run": "node out/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
