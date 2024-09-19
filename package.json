@@ -1,9 +1,29 @@
 {
   "scripts": {
-    "start": "npx tsc && node out/index.js",
-    "run": "node out/index.js"
+    "build": "npx tsc",
+    "start": "node dist/index.js"
   },
   "devDependencies": {
     "typescript": "^5.6.2"
-  }
+  },
+  "name": "random-number-from-ranges",
+  "version": "1.0.0",
+  "description": "Generate a random number from an array of number ranges",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaccheuss/random-number-from-ranges.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "range"
+  ],
+  "author": "Zachary Fuller <zachary.fuller.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zaccheuss/random-number-from-ranges/issues"
+  },
+  "homepage": "https://github.com/Zaccheuss/random-number-from-ranges#readme"
 }
