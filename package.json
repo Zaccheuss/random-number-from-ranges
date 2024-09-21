@@ -1,13 +1,14 @@
 {
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "typescript": "^5.6.2"
   },
   "name": "random-number-from-ranges",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate a random number from an array of number ranges",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
