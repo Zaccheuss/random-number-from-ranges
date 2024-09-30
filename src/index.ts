@@ -6,6 +6,15 @@ const RANGE_OPPOSITE_ERROR_MESSAGE = (badTuple: NumberRange) =>
 const OVERLAPPING_RANGES_ERROR_MESSAGE = (badTuples: NumberRange[]) =>
   `Number ranges cannot overlap. The following ranges overlap: [${badTuples[0][0]}, ${badTuples[0][1]}] and [${badTuples[1][0]}, ${badTuples[1][1]}]`;
 
+/**
+ * Returns a random a value from a series of number ranges
+ *
+ * @example
+ * ```ts
+ * const randomNum = randomFromRanges([4, 6], [12, 14])
+ * console.log(randomNum) // Will be 4, 5, 6, 12, 13, or 14
+ * ```
+ */
 export const randomFromRanges = (ranges: NumberRange[]): number => {
   let total = 0;
   ranges.forEach((range, i) => {
