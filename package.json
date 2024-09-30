@@ -8,7 +8,7 @@
     "typescript": "^5.6.2"
   },
   "name": "random-number-from-ranges",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Generate a random number from an array of number ranges",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
