@@ -29,4 +29,4 @@ Ranges must not overlap, e.g. `[[1, 3], [2, 6]]` is invalid while `[[1, 3], [5, 
 
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2019) © Andrea SonnY
+[MIT License](https://andreasonny.mit-license.org/2019)
